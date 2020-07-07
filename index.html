@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>parisa rahmani</title>
+</head>
+<body>
+    <div class="container">
+        <div class="nav-wrapper">
+            <div class="leftside">
+                <div class="nav-link-wrapper active-link">
+                        <a href="index.html">Home</a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="about.html">About</a>
+                </div>
+            </div>
+
+            <div class="rightside">
+                <h5>parisa rahmani</h5>
+            </div>
+        </div>
+
+        <div class="content-wrapper">
+            <div class="items">
+
+                <div class="item">
+                    <div class="item-bg-img" style="background-image: url(img/1.jpg)"></div>
+                    <div class="img-text">
+                        <div class="logo">
+                            <img src="img/logos/quip.png" >
+                        </div>
+
+                        <div class="subtitle">
+                            this is designed in 2020
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-bg-img" style="background-image: url(img/2.jpg)"></div>
+                    <div class="img-text">
+                        <div class="logo">
+                            <img src="img/logos/devcamp.png" >
+                        </div>
+
+                        <div class="subtitle">
+                            this is my design
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-bg-img" style="background-image: url(img/3.jpg)"></div>
+                    <div class="img-text">
+                        <div class="logo">
+                            <img src="img/logos/eventbrite.png" >
+                        </div>
+
+                        <div class="subtitle">
+                            this is my design
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-bg-img" style="background-image: url(img/4.jpg)"></div>
+                    <div class="img-text">
+                        <div class="logo">
+                            <img src="img/logos/shop-hacker.png" >
+                        </div>
+
+                        <div class="subtitle">
+                            this is my design
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-bg-img" style="background-image: url(img/5.jpg)"></div>
+                    <div class="img-text">
+                        <div class="logo">
+                            <img src="img/logos/crondose.png" >
+                        </div>
+
+                        <div class="subtitle">
+                            this is my design
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-bg-img" style="background-image: url(img/6.jpg)"></div>
+                    <div class="img-text">
+                        <div class="logo">
+                            <img src="img/logos/dailysmarty.png" >
+                        </div>
+
+                        <div class="subtitle">
+                            this is my design
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-bg-img" style="background-image: url(img/7.jpg)"></div>
+                    <div class="img-text">
+                        <div class="logo">
+                            <img src="img/logos/dashtrack.png" >
+                        </div>
+
+                        <div class="subtitle">
+                            this is my design
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-bg-img" style="background-image: url(img/8.jpg)"></div>
+                    <div class="img-text">
+                        <div class="logo">
+                            <img src="img/logos/devtrunk.png" >
+                        </div>
+
+                        <div class="subtitle">
+                            this is my design
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-bg-img" style="background-image: url(img/9.jpg)"></div>
+                    <div class="img-text">
+                        <div class="logo">
+                            <img src="img/logos/edutechional.png" >
+                        </div>
+
+                        <div class="subtitle">
+                            this is my design
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-bg-img" style="background-image: url(img/10.jpg)"></div>
+                    <div class="img-text">
+                        <div class="logo">
+                            <img src="img/logos/ministry-safe.png" >
+                        </div>
+
+                        <div class="subtitle">
+                            this is my design
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-bg-img" style="background-image: url(img/11.jpg)"></div>
+                    <div class="img-text">
+                        <div class="logo">
+                            <img src="img/logos/toastability.png" >
+                        </div>
+
+                        <div class="subtitle">
+                            this is my design
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-bg-img" style="background-image: url(img/12.jpg)"></div>
+                    <div class="img-text">
+                        <div class="logo">
+                            <img src="img/logos/open-devos.png" >
+                        </div>
+
+                        <div class="subtitle">
+                            this is my design
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+<script>
+    const item = document.querySelectorAll('.item')
+
+    item.forEach(item => {
+        item.addEventListener('mouseover', () => {
+            item.childNodes[1].classList.add('img-darken');
+        })
+
+        item.addEventListener('mouseout', () => {
+            item.childNodes[1].classList.remove('img-darken');
+        })
+    })
+</script>
+</html>
