@@ -114,16 +114,22 @@
     grid-template-columns: auto auto;
 }
 
+.profile{
+    text-align: right;
+}
 .profile img{
-    margin-left: 20px;
-    width: 100%;
+    
+    width: 50%;
+    
 }
 
 .profile-content{
-    padding: 40px 60px;
+    padding: 50px 30px;
+    font-size: smaller;
+    width: 65%;
 }
 
-.profile-content h1{
+.profile-content h3{
     color: mediumblue;
     margin-bottom: 10px;
 }
